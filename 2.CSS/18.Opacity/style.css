@@ -1,0 +1,24 @@
+img{
+    width: 400px;
+}
+img:hover{
+    opacity:0.5; /*opacityr value 0 theke 1 projonto hoy*/
+}
+.bg{ /*div er vitor bacgroud image dite chaile obosshoi width and height dite hobe. na hole show korbe na*/
+    width: 700px;
+    height: 400px;
+    background: url(image.jpg) no-repeat center;
+    overflow: hidden; /*overflow hidden use korar karon main div er content niche chole gecge. uporer contain er jonno dekha jacchilo na.. tai take dekhar jonno eta use kora hoiche*/
+}
+p{
+    font-size: 50px;
+}
+.box p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
+    opacity: 0.5;
+    
+}

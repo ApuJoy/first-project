@@ -1,0 +1,17 @@
+h1{/*eta block element*/
+    text-align: center;
+    display: inline-block;
+} /*dispay use kore inline eliment ke block aliment kora jay. and block eliment ke inline elemet kora jay*/
+
+/*inline element e text alain cemter kaj kore na*/
+
+.spp{ /*eta inline element*/
+    text-align: center;
+    display: block;
+}
+h2{
+    display: inline-block ;
+}
+ul li{ /*inline use kore choto choto sob block elemet 1 line a ana jay*/
+    display: inline;
+}

@@ -1,0 +1,36 @@
+h1{ /*text-shadow 1st value hocche x, dane bame kaj korbe - hole bame dane kaj korbe... 2nd value hocche y,, upore niche.... - hole niche upore,, 3rd value hocche blur er jonno and last value hocche ki color er shadow hobe*/
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 2px red ;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -5px -5px 5px green;
+}
+.box{ /*box a shadow deyar jonno age border use korte hobe. tarpoe box-shadow use korte hobe, border er char pashe shadow use korar jonno 2 bar value use korte hobe,  akbar normal akbar - shoho*/
+    width: 400px;
+    height: 300x;
+    text-align: center;
+    margin:auto;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.5),-5px -5px 5px rgb(0,0,0,0.5);
+    margin-bottom: 100px;
+}
+.box img{
+    width: 100%;
+}
+h3{
+    margin: 0;
+}
+.box2{
+    width: 400px;
+    height: 300x;
+    text-align: center;
+    margin:auto;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.5);
+}
+.box2 img{
+    width: 100%;
+}

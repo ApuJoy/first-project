@@ -1,0 +1,22 @@
+.list1{
+    /* ekhan theke sob use kora jay.. jemon. A, a, 1 i, shape etc*/
+    list-style-type: decimal;
+}
+/*eta diye 01 theke shuru hoy*/
+.list2{
+    list-style-type: decimal-leading-zero;
+}
+/*list position inside dile list er songkha gula ek laine thake*/
+.list3{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+/*list er eikhane image o deoya jay*/
+.list4{
+    list-style-image:url(image.jpg);
+    
+}
+/*ek line e likha jay*/
+.list5{
+    list-style: square inside url(image.jpg);
+}

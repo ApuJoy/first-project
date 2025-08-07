@@ -1,0 +1,35 @@
+.img1{
+    width: 400px;
+    float: right;
+}
+
+.img2{ /*float left.. jodi jaygay thake. tahole float left ba right kore khali jaygay nicher content upore pashapashi bosate pari*/
+    width: 400px;
+    float: left; 
+}
+p{ /*ar kono contant jodi float er karone upore ba majhe thake tahole clear left ba right kore niche niye aste pari. ba both value use koreo ante pari*/
+    clear:both;
+}
+div{
+    float:left;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+}
+.box4{
+    width: 300px;
+    height: 200px;
+    background-color: tomato;
+}

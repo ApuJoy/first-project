@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main{
+    width: 75%;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    color: white;
+    display: grid;
+    /*joto ta row lagbe totota value use korte hobe*/
+    grid-template-rows:60px 100px 200px 60px;
+    /*pothom 3 ta same sixe hobe. tai repeat(3) 1fr use korle se pura jayga use korbe.*/
+    grid-template-columns: repeat(3, 1fr) 150px;
+    grid-gap: 15px;
+}
+.div1{background-color: #ff4757;
+    grid-column: 1/-1; /*1/-1 eka jayga dokhol korbe, abdong pura jayga dokhol korbe*/
+}
+.div2{background-color: #2ed573;}
+.div3{background-color: #1e90ff;}
+.div4{background-color: #5352ed;}
+.div5{background-color: #2f3542;
+    grid-row: 2/4; /*2 number row theke 4 number row projonto boro hobe
+    grids er row sobsomy samne theke kaj kore, mane shure theke. tai grid colum use kore thik kora hoy */
+    grid-column: 4/5;
+    
+}
+.div6{background-color: #ffe502;
+    grid-column: 1/4; /*colams er sixe baranor jonno. mane 1/4= 4 tar colams er moto boro hobe.. ba akhena 1/ spen 3 o likha jabe*/
+}
+.div7{background-color: #00d2d3;
+     grid-column: 1/-1;
+}

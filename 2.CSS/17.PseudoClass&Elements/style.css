@@ -1,0 +1,21 @@
+a:hover{
+    color: black;
+    background-color: white;
+}
+h2:nth-child(2){ /*eta sudo class. eta use kore ek tag er maddhome jodi onek gula contant thake. tahole ata diye jekono contant syle kora jabe.. jemon nth-chile(2), ba first chiled, second-child*/
+    color: red;
+
+}
+h2:first-child{
+    color: yellow;
+}
+p::first-letter{ /*eta hocche sudu element. ata use korar jonno tag er pore :: use kore first letter ba first line dite style korte parbO*/
+    color: red;
+    font-size: 50px;
+}
+h1::before{/*ai sudu elemet er maddhome html a kono  content ba image na likheo , eta diye use kora jay, namer age ba pore*/
+    content:url(image.jpg);
+}
+h1::after{
+    content: url(#);
+}

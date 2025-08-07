@@ -1,0 +1,40 @@
+.box{
+    width: 400px;
+    height:400px;
+    background-color: tomato;
+    margin: 100px auto;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /*transition= size choto boro with animation*/
+    /*animation deoyar jonno mot 4 ra propety use korte*/
+    /*1-transition-property: width; width choto hobe all dile sob ak sathe hobe*/
+    /*2-transition-delay: 1s; koto sec pore shuru hobe*/
+    /*3-transition-duration: 0.5s; kotokkhon hobe*/
+    /*4-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); kivabe animattion hobe*/
+}
+.box2{
+    width: 400px;
+    height:400px;
+    background-color: tomato;
+    margin: 100px auto;
+    transition:all 0.5s linear 1s ;
+    /*ak line er transition, 1st-all, 2nd-duration, 3rd- timing-function, 4rt-delay*/
+}
+
+.box:hover{
+    width: 200px;
+    height: 200px;
+    
+
+} 
+.box2:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+    transform: rotate(180deg);
+    
+
+}

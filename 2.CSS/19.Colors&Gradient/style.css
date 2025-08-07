@@ -1,0 +1,31 @@
+h1{
+    color: tomato;
+}
+h2{ /*rgb color. last er value ta opacity*/
+    color: rgb(255, 99, 71, 0.5);
+}
+p{ /*hexa decimel color*/
+    color: #bad909;
+}
+ 
+/*linear-gradient. upore niche, ba dane bame, 2 color diye set kora jay, */
+/*2 color er majhe % px use kora jay. koto % lal rakhbo ar koto % green. ta bole deoya jay*/
+/* to left er maddhome direction change kora jay, dan theke bame na upor theke niche... to left top o use kora jay, tahole cona kuni hobe*/
+.box{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(red, 25%, green) ;
+    
+}
+.box2{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(to left, rgba(255, 0, 0), 200px, green);
+    
+}
+/*redial-gradient majg khan theke shuru hobe...*/
+.box3{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(#bad909, #000fff);
+}

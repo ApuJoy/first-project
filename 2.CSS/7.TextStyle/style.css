@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    background-color:black;
+    text-align: center;
+
+}
+p{
+    color: blue;
+    text-transform: capitalize; /*text gula choto hater boro hater korar jonno use hoy*/
+    text-indent: 25px; /*lekhar shuru theke space baranor jonno*/
+    letter-spacing: 5px; /*proti ta letter er space baranor jonno*/
+    word-spacing: 15px; /* protita word er space baranor jonno*/
+    line-height: 30px; /*protita line er upore niche space baranor jonno*/
+
+
+}

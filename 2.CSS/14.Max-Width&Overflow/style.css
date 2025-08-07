@@ -1,0 +1,23 @@
+.p1{
+    border: 3px solid red;
+    width: 400px; 
+    margin: auto;
+}
+/*width ar max width er parthokko holo. max width responsible. width not responsible*/
+.p2{
+    border: 3px solid green;
+    max-width: 400px;
+    margin: auto;
+}
+.p3{
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    overflow: scroll;
+}
+/*overflow ar value normaly visible thake,content beshi thakle box er bahire chole. taile eta use kore sobgula vitore rakha jay. 
+visible===beshi hole habire chole jabe
+scroll==beshi thale scorl kore dekha jabe
+hidden=== beshi lekha hide hoye jabe
+auto==== eta o scroll kore dekha jabe
+*/

@@ -1,0 +1,42 @@
+.box1{
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    /*kOno box er position jodi same box er vitore rakhte chai. tahole 1st box a position reletive thakte hobe*/
+    
+    
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+/*position absolute use korele se bodyr vitorer jayga dhore kaj korbe.. ar 2nd box jar vitore thakbe. tar position jodi reletive thake. tahole se oi box er vitorer jaygay kaj korbe. bahire jabe na*/
+.name{
+    border: 2px solid tomato;
+    margin-top: 10px;
+    width: 400px;
+    background-color: black;
+    color: white ;
+    position: sticky; /* upore scroll korar somoy eta upore veshe thakbe*/
+    top: 0;
+    
+}
+p{
+    padding-bottom: 500px;
+}
+
+.tutul{
+
+    position: fixed; /*ak jaygay rkha hoy fixed er maddhome*/
+    bottom: 0;
+    right: 0;
+}

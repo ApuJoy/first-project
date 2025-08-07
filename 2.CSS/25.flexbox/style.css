@@ -1,0 +1,23 @@
+.flexbox{
+    background-color: aqua;
+    font-size: 30px;
+    display: flex; /*dive ke pasapashi bosanor jonno*/
+    flex-wrap: wrap;  /*responsive kora jay*/
+    /*wrap-revarce=== er kaj holo responsive hole boxgula niche show na hoye upore show korbe*/
+    flex-direction: column; /*normaly row thake. but column a use korar jay */
+    flex-flow: wrap row; /*uporer 2 ta value ak laine e lekhar jonno*/
+    justify-content: space-between; /*sorano jay*/
+    height: 400px;
+    align-items: flex-start; /*upor theke show hobe*/
+
+}
+.flexbox > div{ /*class use na kore > use kore div call kora jay.*/
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+
+}
+.flexbox > div:nth-child(5){ /*jeta 1 number a show korbe*/
+    order: 1; /*1 namber e show korano.. mane pothome*/
+}

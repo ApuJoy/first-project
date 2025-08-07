@@ -1,0 +1,12 @@
+table, th, td{
+    border: 2px solid tomato;
+    border-collapse: collapse;
+    /*proti ta  valuse te border thakle...border collapse value collapse...use korte hobe. tahole akta border hobe */
+    
+}
+
+table{
+    width: 100%;
+    color: red;
+    text-align: left;
+}

@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+    color: white;
+    margin: 100px auto;
+    position: relative;
+    transform: rotate(-45deg);
+}
+.box h3{ /*transform er rotate vallue diye kono shape ba div ke ghurano jay. deg er maddhom elike 45deg*/
+    /*scale== size choto boro kora jay. and scaley dile upore niche borochoto hobe. scalex dane bame*/
+    /*skew== tera vabe kora jay*/
+    /*translate== position change kora jay*/
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40%;
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+    color: white;
+    margin: 100px auto;
+    position: relative;
+    transform: translate(0, 200px);
+}
+.box2{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+    color: white;
+    margin: 100px auto;
+    position: relative;
+    transform:scale(0.5);
+}
+.box3{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+    color: white;
+    margin: 100px auto;
+    position: relative;
+    transform: skew(45deg)
+}

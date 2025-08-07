@@ -1,0 +1,16 @@
+h1{
+    /*front change korar jonno*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*front mota chikon korar jonno*/
+    font-weight: 400;
+
+
+}
+p{
+    font-weight: 700;
+    /*font er style change kora jay, italicc, underline etc*/
+    font-style: italic;
+    /*font size. but jodi amra px use na koew vw use kori, tahole seta responsive hobe*/
+    font-size: 3vw;
+    font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,14 @@
+.social{
+    width: 87px;
+    height: 87px;
+    background: url(social.png);
+    background-repeat: no-repeat;
+    background-position:0px -89px;
+    border-radius: 50%;
+    transition: 1s;
+    
+}
+.social:hover{
+    background-position: 0px -177px;
+}
+/*srite image. bacground position dite set kora lage. 1st er value hocche dane bamer jonno. 2nd vale hocche upore nicher jonno. div er vitor img set korle auto reoet hoy. tai eta ke no reapet kora lage. r trasition 1s animate er jonno*/
